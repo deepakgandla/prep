@@ -48,3 +48,11 @@ print(newName.index('e')) #output 1
 print(newName.rindex('e')) #output 2
 print(newName.find(('e'))) #output 1
 print(newName.rfind('e')) #output 2
+
+#replace method : Returns a string where a specified value is replaced with a specified value
+rname=newName.replace('e', 'm')
+print(rname)  #output dmmpak
+
+#swapcase method : lower case becomes upper case and vice versa
+
+print(newName.swapcase()) #ouput dEEPAK
