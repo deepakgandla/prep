@@ -30,8 +30,21 @@ sentence='Good Morning all'
 ls=sentence.split(' ')
 print(ls) #output ['Good', 'Morning', 'all']
 
-#jion method Joins the elements of an iterable to the end of the string
+#join method Joins the elements of an iterable to the end of the string
 newSentence='*'.join(ls)
 print(newSentence) #output Good*Morning*all
 
+#strip mehthod is used to return trimmerd version of a string
+badStr='     hey       '
+updatedStr=badStr.strip()
+print(updatedStr) #output hey
 
+#title method is used to convert the first character of each word to upper case
+movie='once upon a time in hollywood'
+title=movie.title()
+print(title) #output Once Upon A Time In Hollywood
+
+print(newName.index('e')) #output 1
+print(newName.rindex('e')) #output 2
+print(newName.find(('e'))) #output 1
+print(newName.rfind('e')) #output 2
