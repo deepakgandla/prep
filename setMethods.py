@@ -51,3 +51,10 @@ print(letters1.issubset(letters3)) #output True
 
 #superset
 print(letters3.issuperset(letters1)) #output True
+
+l=[1.2,1.1,0.9]
+l.sort()
+print(l)
+
+s=list('abca')
+print(s)
