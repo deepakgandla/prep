@@ -11,6 +11,5 @@ def sum2(n):
     return total
 
 n=100000000
-print(sum1.__doc__)
 print('sum 1', sum1(n))
 print('sum 2', sum2(n))
