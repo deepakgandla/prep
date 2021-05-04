@@ -89,6 +89,6 @@ def toPostfix(expression):
     return result
 
 
-exp="a+b"
+exp="3-4+5"
 postfix = toPostfix(exp)
 print(postfix)         
