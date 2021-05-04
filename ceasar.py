@@ -8,5 +8,6 @@ def encrypt(text, s):
             result += chr((ord(ch) + s-97) % 26+97)
           
     return result
-print(encrypt('deepak', 1))
-print(ord('d'))
+          
+text = encrypt('phqgh', 3)
+print(text)
